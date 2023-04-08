@@ -1,0 +1,60 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-inner,
+.carousel-item {
+    max-height: calc(100vh - 80px)!important;
+}
+
+.carousel-item img {
+    filter: brightness(0.5);
+}
+
+.bi {
+    width: 16px;
+    height: 16px;
+}
+
+.dropdown-menu {
+    min-width: 8rem!important;
+}
+
+html[data-bs-theme="dark"] nav {
+    background-color: #000000!important;
+    color: white!important;
+}
+
+html[data-bs-theme="dark"] .bi {
+    fill: white!important;
+}
+
+html[data-bs-theme="light"] .bg-secondary {
+    background-color: #bbbbbb!important;
+}
+
+html[data-bs-theme="dark"] .bg-secondary {
+    background-color: #555555!important;
+}
+
+html[data-bs-theme="dark"] .bg-light {
+    background-color: #222222!important;
+}
+
+.nav-item,
+.dropdown {
+    min-width: 33px!important;
+    width: 33px!important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+      }
+}
